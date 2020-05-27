@@ -1,0 +1,365 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.headerBg {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true");
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 64px;
+  color: #ffff;
+  font-weight: bold;
+  height: 100vh;
+  font-style: italic;
+}
+
+.headerBg h1 {
+  font-size: 80px;
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+.headerBg span {
+  font-size: 24px;
+}
+
+.headerBg p {
+  font-size: 24px;
+  margin-bottom: 64px;
+  line-height: 42px;
+}
+
+.headerBg .headerIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerBg .headerIcon img {
+  width: 60px;
+  height: 60px;
+  margin-right: 16px;
+}
+
+.aboutContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: italic;
+  margin-bottom: 54px;
+}
+
+.aboutContent .aboutTitle {
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.aboutContent .aboutTitle h2 {
+  margin-bottom: 40px;
+}
+
+.aboutContent .aboutSelf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+
+.aboutContent .aboutSelf li {
+  margin-bottom: 16px;
+}
+
+.aboutContent .aboutForm {
+  padding-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+}
+
+.aboutContent .aboutForm li {
+  position: relative;
+  margin-bottom: 32px;
+  font-size: 28px;
+}
+
+.aboutContent .aboutForm li::before {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  content: '';
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  left: -40px;
+  top: 8px;
+}
+
+.myPortfolio {
+  background-color: black;
+  width: 1920px;
+  height: 1407px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 64px;
+  font-style: italic;
+}
+
+.myPortfolio .portfolioTitle {
+  color: #fff;
+  text-align: center;
+}
+
+.myPortfolio .portfolioTitle h2 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.myPortfolio .portfolioTitle h5 {
+  font-size: 28px;
+  margin-bottom: 32px;
+}
+
+.myPortfolio .portfolioTitle p {
+  font-size: 20px;
+  line-height: 46px;
+  margin-bottom: 46px;
+}
+
+.myPortfolio .portfolioPic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.myPortfolio .portfolioPic img {
+  margin-bottom: 40px;
+  margin-left: 8px;
+}
+
+.otherWorks {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/raw/master/week2/photo-1561291386-5be50364cfb5.png");
+  height: 1800px;
+  background-size: 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.otherWorks .otherWorksTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.otherWorks .otherWorksTitle h2 {
+  font-size: 64px;
+  margin-bottom: 24px;
+}
+
+.otherWorks .otherWorksTitle p {
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 48px;
+}
+
+.otherWorks .otherWorksPic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.otherWorks .otherWorksPic img {
+  margin-bottom: 18px;
+}
+
+.otherWorks .otherWorksPic p {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 56px;
+}
+
+.otherWorks .otherWorksPicTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.otherWorks .otherWorksPicTwo img {
+  margin-bottom: 16px;
+}
+
+.otherWorks .otherWorksPicTwo p {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 56px;
+}
+
+.otherWorks .otherWorksPicThree {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.otherWorks .otherWorksPicThree img {
+  margin-bottom: 16px;
+}
+
+.otherWorks .otherWorksPicThree p {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 56px;
+}
+
+.myContact {
+  background-color: #000;
+  color: #fff;
+  padding: 56px 0 80px 0;
+}
+
+.myContact .myContactText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-style: italic;
+  font-size: 24px;
+}
+
+.myContact .myContactText h6 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.myContact .myContactText li a {
+  text-decoration: none;
+  line-height: 40px;
+  color: #fff;
+}
+
+.myContact .myContactText a:hover {
+  color: #66FFFF;
+}
+/*# sourceMappingURL=style.css.map */
